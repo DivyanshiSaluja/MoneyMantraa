@@ -3,7 +3,7 @@ import { supabase } from './supabaseClient.js';
 // Sync minimal user to backend
 async function initUserInBackend(user, token) {
   try {
-    const res = await fetch('http://localhost:3000/api/user/init', {
+    const res = await fetch('https://money-mantra-production.up.railway.app//api/user/init', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
