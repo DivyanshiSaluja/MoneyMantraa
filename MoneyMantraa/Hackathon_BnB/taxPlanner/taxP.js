@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     email = userData.user.email;
     token = sessionData.session.access_token;
 
-    const response = await fetch('http://localhost:3000/api/tax/summary', {
+    const response = await fetch('https://money-mantra-production.up.railway.app//api/tax/summary', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -62,7 +62,7 @@ document.getElementById('chatbox-form').addEventListener('submit', async functio
 
   // Send message to backend (replace '/api/chat' with respective endpoint)
   try {
-    const response = await fetch('http://localhost:3000/api/tax/gpt', {
+    const response = await fetch('https://money-mantra-production.up.railway.app/api/tax/gpt', {
     method: 'POST',
     headers: {
     'Content-Type': 'application/json',
