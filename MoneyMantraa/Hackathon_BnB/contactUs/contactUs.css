@@ -87,7 +87,7 @@ body {
 }
 
 .contact-info-panel .contact-phone {
-    color: #10b981;
+    color: #ffffff;
     font-weight: bold;
     font-size: 1.1rem;
     margin-bottom: 16px;
@@ -95,16 +95,13 @@ body {
 }
 
 .contact-info-panel .contact-email {
-    color: #10b981;
+    color: #ffffff;
     font-weight: bold;
     font-size: 1.1rem;
     margin-left: 34px;
     margin-bottom: 0;
 }
 
-.contact-phone, .contact-email {
-    colour: #ffffff;
-}
 .icon {
     font-size: 1.1em;
     margin-right: 10px;
