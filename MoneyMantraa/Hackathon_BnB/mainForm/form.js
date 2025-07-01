@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   if (existingProfile && !profileError) {
     console.log('User profile already exists, redirecting...');
-    window.location.href = 'http://127.0.0.1:5500/frontend/Hackathon_BnB/index.html';
+    window.location.href = 'https://moneymatra.vercel.app/';
     return;
   }
 
@@ -100,7 +100,7 @@ nameInput.style.backgroundColor = '#f3f4f6';
       }, 300);
 
       setTimeout(() => {
-      window.location.href = "http://127.0.0.1:5500/frontend/Hackathon_BnB/index.html";
+      window.location.href = "https://moneymatra.vercel.app/";
       }, 2000);
 
     } catch (err) {
