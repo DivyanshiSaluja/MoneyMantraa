@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Sending data to `/user/init` only once per session
   try {
     console.log("Calling /user/init with:", { email, name });
-    await fetch('https://money-mantra-production.up.railway.app/api/user/init', {
+    await fetch('https://money-mantra-farn.onrender.com/api/user/init', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, name }),
@@ -79,7 +79,7 @@ nameInput.style.backgroundColor = '#f3f4f6';
     };
 
     try {
-      const response = await fetch('https://money-mantra-production.up.railway.app/api/user/profile', {
+      const response = await fetch('https://money-mantra-farn.onrender.com/api/user/profile', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
