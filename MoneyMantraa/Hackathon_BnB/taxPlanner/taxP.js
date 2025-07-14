@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     email = userData.user.email;
     token = sessionData.session.access_token;
 
-    const response = await fetch('https://money-mantra-farn.onrender.com//api/tax/summary', {
+    const response = await fetch('https://money-mantra-farn.onrender.com/api/tax/summary', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
