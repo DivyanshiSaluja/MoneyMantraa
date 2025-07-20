@@ -137,28 +137,6 @@ h1 {
     color: #fff;
 }
 
-/* .close-btn {
-    background: none;
-  border: none;
-  color: #fff;
-  font-size: 1.5em;
-  cursor: pointer;
-  padding: 0 10px;
-  transition: color 0.2s, background 0.2s, transform 0.2s;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.close-btn:hover {
-  background: rgba(245, 158, 11, 0.2);
-  color: #f59e0b;
-  transform: scale(1.1);
-} */
-
 #chatbox-messages {
     flex: 1;
     padding: 14px;
@@ -235,6 +213,11 @@ h1 {
     content: '';
     display: table;
     clear: both;
+}
+
+/* Hiding scrollbar  */
+.hide-scrollbar :: webkit-scrollbar{
+    display: none;
 }
 
 /* Mouse Trail */
