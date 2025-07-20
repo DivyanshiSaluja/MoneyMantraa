@@ -12,7 +12,7 @@
 
   <div class="main-container">
     <!-- TAX SECTION -->
-    <div class="tax-section">
+    <div class="tax-section hide-scrollbar">
       <h1 class="brand-name">AI Tax Planner</h1>
       <div class="container">
         <div id="gpt-content" class="gpt-content"></div>
@@ -20,13 +20,10 @@
     </div>l
 
     <!-- CHAT-SECTION -->
-    <div class="chat-section">
+    <div class="chat-section hide-scrollbar">
       <h1 class="brand-name">Fin Bot</h1>
       <div id="chatbox-container" class="chatbox-theme">
-        <div class="chat-header">
-          <!-- <button id="close-chat" class="close-btn">✕</button> -->
-        </div>
-        <div id="chatbox-messages"></div>
+        <div id="chatbox-messages hide-scrollbar"></div>
         <form id="chatbox-form" autocomplete="off">
           <input type="text" id="chatbox-input" placeholder="Type your question..." />
           <button type="submit">Send</button>
