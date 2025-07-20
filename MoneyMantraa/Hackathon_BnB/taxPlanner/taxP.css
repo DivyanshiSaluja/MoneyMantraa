@@ -215,11 +215,6 @@ h1 {
     clear: both;
 }
 
-/* Hiding scrollbar  */
-.hide-scrollbar :: webkit-scrollbar{
-    display: none;
-}
-
 /* Mouse Trail */
 .mouse-trail {
     position: absolute;
