@@ -212,7 +212,7 @@ h1 {
 .user-message {
     float: right;
     color: #3b82f6;
-    background: #000;
+    background: rgba(59, 130, 246, 0.14);
     margin: 6px 0;
 }
 
@@ -220,7 +220,7 @@ h1 {
     align-self: flex-start;
     float: left;
     color: #10b981;
-    background: #000;
+    background: rgba(106, 67, 5, 0.979); 
     margin: 6px 0;
 }
 
