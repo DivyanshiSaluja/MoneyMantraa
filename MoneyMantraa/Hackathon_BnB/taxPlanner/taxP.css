@@ -217,7 +217,6 @@ h1 {
 }
 
 .bot-message {
-    align-self: flex-start;
     float: left;
     color: #10b981;
     background: rgba(106, 67, 5, 0.979); 
