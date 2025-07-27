@@ -61,25 +61,28 @@ h1 {
 }
 
 .tax-section {
-  height: 100vh; /* Or set height on some parent */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 20px;
+    border-right: 1px solid rgba(59, 130, 246, 0.2);
+    overflow: hidden; /* prevent double scroll */
 }
 
 .tax-section .container {
-  display: flex;
-  flex-direction: column;
-  height: 100%; /* ensure parent height is set */
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(20px);
-  border-radius: 20px;
-  border: 1px solid rgba(59, 130, 246, 0.2);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  color: white;
-  overflow: hidden;
-  box-sizing: border-box;
-  max-height: 80vh; /* limit max height so scroll works */
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    color: white;
+    overflow: hidden; /* clip inner scroll */
 }
 
 #gpt-content {
