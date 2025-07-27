@@ -84,16 +84,6 @@ The platform smoothly combines advanced AI with an easy-to-use interface. This m
 <section>
     <h2>Team Roles</h2>
     <div>
-        <h3>Alisha (Backend & AI Integration)</h3>
-        <ul>
-            <li>Built complete backend with Node.js and Express</li>
-            <li>Designed REST APIs for tax estimation and chat-based queries</li>
-            <li>Integrated Groq API for LLM-based question answering</li>
-            <li>Added token-based auth middleware using Supabase JWT</li>
-            <li>Deployed backend on Render and managed full API lifecycle</li>
-        </ul>
-    </div>
-    <div>
         <h3>Divyanshi (Frontend & UI/UX)</h3>
         <ul>
             <li>Designed and developed the frontend using React and Tailwind CSS</li>
@@ -101,6 +91,16 @@ The platform smoothly combines advanced AI with an easy-to-use interface. This m
             <li>Created the chat interface, dashboard, and result pages</li>
             <li>Added animations and transitions with Framer Motion</li>
             <li>Deployed frontend on Vercel</li>
+        </ul>
+    </div>
+    <div>
+        <h3>Alisha (Backend & AI Integration)</h3>
+        <ul>
+            <li>Built complete backend with Node.js and Express</li>
+            <li>Designed REST APIs for tax estimation and chat-based queries</li>
+            <li>Integrated Groq API for LLM-based question answering</li>
+            <li>Added token-based auth middleware using Supabase JWT</li>
+            <li>Deployed backend on Render and managed full API lifecycle</li>
         </ul>
     </div>
 </section>
