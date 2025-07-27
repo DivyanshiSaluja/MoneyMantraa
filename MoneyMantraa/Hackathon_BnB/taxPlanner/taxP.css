@@ -198,7 +198,7 @@ h1 {
     padding: 16px 22px;
     margin: 12px 0;
     border-radius: 14px;
-    background: rgba(59, 130, 246, 0.13);
+    background: #000;
     box-shadow: 0 2px 12px rgba(59, 130, 246, 0.09);
     white-space: normal;
     overflow-x: auto;
@@ -212,7 +212,7 @@ h1 {
 .user-message {
     float: right;
     color: #3b82f6;
-    background: rgba(59, 130, 246, 0.14);
+    background: #000;
     margin: 6px 0;
 }
 
@@ -220,7 +220,7 @@ h1 {
     align-self: flex-start;
     float: left;
     color: #10b981;
-    background: rgba(16, 184, 129, 0.13);
+    background: #000;
     margin: 6px 0;
 }
 
