@@ -58,7 +58,7 @@ h1 {
     padding: 3;
     margin: 0;
     align-items: stretch; 
-    background: transparent;
+    background: #000;
 }
 
 .tax-section {
