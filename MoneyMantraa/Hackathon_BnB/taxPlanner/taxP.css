@@ -76,7 +76,7 @@ h1 {
     max-width: 900px;
     margin: 0 auto;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.7);
+    background: transparent;
     backdrop-filter: blur(20px);
     border-radius: 20px;
     border: 1px solid rgba(59, 130, 246, 0.2);
